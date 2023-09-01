@@ -1,0 +1,178 @@
+2023-09-01T09:54:06.504+05:30  INFO 20972 --- [restartedMain] com.project.restapi.ProjectApplication   : Starting ProjectApplication using Java 17.0.7 with PID 20972 (C:\Users\santh\Documents\workspace-spring-tool-suite-4-4.19.1.RELEASE\project\target\classes started by santh in C:\Users\santh\Documents\workspace-spring-tool-suite-4-4.19.1.RELEASE\project)
+2023-09-01T09:54:06.506+05:30  INFO 20972 --- [restartedMain] com.project.restapi.ProjectApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-09-01T09:54:06.558+05:30  INFO 20972 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-09-01T09:54:06.560+05:30  INFO 20972 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-09-01T09:54:07.200+05:30  INFO 20972 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-01T09:54:07.255+05:30  INFO 20972 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 3 JPA repository interfaces.
+2023-09-01T09:54:07.714+05:30  INFO 20972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8181 (http)
+2023-09-01T09:54:07.724+05:30  INFO 20972 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-01T09:54:07.724+05:30  INFO 20972 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-09-01T09:54:07.791+05:30  INFO 20972 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-01T09:54:07.791+05:30  INFO 20972 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1231 ms
+2023-09-01T09:54:07.915+05:30  INFO 20972 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-01T09:54:07.960+05:30  INFO 20972 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-09-01T09:54:07.962+05:30  INFO 20972 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-09-01T09:54:08.083+05:30  INFO 20972 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-01T09:54:08.191+05:30  INFO 20972 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-01T09:54:08.207+05:30  INFO 20972 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-09-01T09:54:08.467+05:30  INFO 20972 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@659b4414
+2023-09-01T09:54:08.470+05:30  INFO 20972 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-09-01T09:54:08.514+05:30  WARN 20972 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-09-01T09:54:08.738+05:30  INFO 20972 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-01T09:54:09.343+05:30  INFO 20972 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-01T09:54:09.427+05:30  INFO 20972 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-01T09:54:09.712+05:30  INFO 20972 --- [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-09-01T09:54:10.158+05:30  WARN 20972 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-01T09:54:10.523+05:30  WARN 20972 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-09-01T09:54:10.549+05:30  WARN 20972 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2023-09-01T09:54:10.551+05:30  INFO 20972 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-01T09:54:10.553+05:30  INFO 20972 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-09-01T09:54:10.565+05:30  INFO 20972 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-09-01T09:54:10.568+05:30  INFO 20972 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-09-01T09:54:10.580+05:30  INFO 20972 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-09-01T09:54:10.616+05:30 ERROR 20972 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8181 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8181 or configure this application to listen on another port.
+
+2023-09-01T09:54:28.005+05:30  INFO 19776 --- [restartedMain] com.project.restapi.ProjectApplication   : Starting ProjectApplication using Java 17.0.7 with PID 19776 (C:\Users\santh\Documents\workspace-spring-tool-suite-4-4.19.1.RELEASE\project\target\classes started by santh in C:\Users\santh\Documents\workspace-spring-tool-suite-4-4.19.1.RELEASE\project)
+2023-09-01T09:54:28.009+05:30  INFO 19776 --- [restartedMain] com.project.restapi.ProjectApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-09-01T09:54:28.063+05:30  INFO 19776 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-09-01T09:54:28.064+05:30  INFO 19776 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-09-01T09:54:28.724+05:30  INFO 19776 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-01T09:54:28.791+05:30  INFO 19776 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60 ms. Found 3 JPA repository interfaces.
+2023-09-01T09:54:29.304+05:30  INFO 19776 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8181 (http)
+2023-09-01T09:54:29.313+05:30  INFO 19776 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-01T09:54:29.313+05:30  INFO 19776 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-09-01T09:54:29.383+05:30  INFO 19776 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-01T09:54:29.383+05:30  INFO 19776 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1319 ms
+2023-09-01T09:54:29.530+05:30  INFO 19776 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-01T09:54:29.578+05:30  INFO 19776 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-09-01T09:54:29.580+05:30  INFO 19776 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-09-01T09:54:29.703+05:30  INFO 19776 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-01T09:54:29.817+05:30  INFO 19776 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-01T09:54:29.837+05:30  INFO 19776 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-09-01T09:54:30.137+05:30  INFO 19776 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@16a6b6d
+2023-09-01T09:54:30.140+05:30  INFO 19776 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-09-01T09:54:30.192+05:30  WARN 19776 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-09-01T09:54:30.437+05:30  INFO 19776 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-01T09:54:31.062+05:30  INFO 19776 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-01T09:54:31.139+05:30  INFO 19776 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-01T09:54:31.391+05:30  INFO 19776 --- [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-09-01T09:54:31.847+05:30  WARN 19776 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-01T09:54:32.235+05:30  INFO 19776 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-01T09:54:32.277+05:30  INFO 19776 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8181 (http) with context path ''
+2023-09-01T09:54:32.289+05:30  INFO 19776 --- [restartedMain] com.project.restapi.ProjectApplication   : Started ProjectApplication in 4.629 seconds (process running for 5.373)
+2023-09-01T09:56:31.930+05:30  INFO 19776 --- [http-nio-8181-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-01T09:56:31.931+05:30  INFO 19776 --- [http-nio-8181-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-01T09:56:31.932+05:30  INFO 19776 --- [http-nio-8181-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-09-01T09:56:49.722+05:30  INFO 19776 --- [RMI TCP Connection(13)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-09-01T09:56:49.741+05:30  INFO 19776 --- [RMI TCP Connection(13)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-09-01T09:56:49.743+05:30  INFO 19776 --- [RMI TCP Connection(13)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-09-01T09:56:49.751+05:30  INFO 19776 --- [RMI TCP Connection(13)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-01T09:56:49.754+05:30  INFO 19776 --- [RMI TCP Connection(13)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-09-01T09:56:49.763+05:30  INFO 19776 --- [RMI TCP Connection(13)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-09-01T09:56:54.588+05:30  INFO 16964 --- [restartedMain] com.project.restapi.ProjectApplication   : Starting ProjectApplication using Java 17.0.7 with PID 16964 (C:\Users\santh\Documents\workspace-spring-tool-suite-4-4.19.1.RELEASE\project\target\classes started by santh in C:\Users\santh\Documents\workspace-spring-tool-suite-4-4.19.1.RELEASE\project)
+2023-09-01T09:56:54.592+05:30  INFO 16964 --- [restartedMain] com.project.restapi.ProjectApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-09-01T09:56:54.645+05:30  INFO 16964 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-09-01T09:56:54.645+05:30  INFO 16964 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-09-01T09:56:55.296+05:30  INFO 16964 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-01T09:56:55.359+05:30  INFO 16964 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 3 JPA repository interfaces.
+2023-09-01T09:56:55.867+05:30  INFO 16964 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8181 (http)
+2023-09-01T09:56:55.877+05:30  INFO 16964 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-01T09:56:55.877+05:30  INFO 16964 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-09-01T09:56:55.953+05:30  INFO 16964 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-01T09:56:55.954+05:30  INFO 16964 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1307 ms
+2023-09-01T09:56:56.077+05:30  INFO 16964 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-01T09:56:56.123+05:30  INFO 16964 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-09-01T09:56:56.125+05:30  INFO 16964 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-09-01T09:56:56.247+05:30  INFO 16964 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-01T09:56:56.361+05:30  INFO 16964 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-01T09:56:56.380+05:30  INFO 16964 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-09-01T09:56:56.682+05:30  INFO 16964 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@555fd403
+2023-09-01T09:56:56.685+05:30  INFO 16964 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-09-01T09:56:56.727+05:30  WARN 16964 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-09-01T09:56:56.955+05:30  INFO 16964 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-01T09:56:57.580+05:30  INFO 16964 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-01T09:56:57.669+05:30  INFO 16964 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-01T09:56:57.906+05:30  INFO 16964 --- [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-09-01T09:56:58.379+05:30  WARN 16964 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-01T09:56:58.756+05:30  INFO 16964 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-01T09:56:58.793+05:30  INFO 16964 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8181 (http) with context path ''
+2023-09-01T09:56:58.807+05:30  INFO 16964 --- [restartedMain] com.project.restapi.ProjectApplication   : Started ProjectApplication in 4.581 seconds (process running for 5.342)
+2023-09-01T09:57:45.195+05:30  INFO 16964 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-09-01T09:57:45.217+05:30  INFO 16964 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-09-01T09:57:45.225+05:30  INFO 16964 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-01T09:57:45.230+05:30  INFO 16964 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-09-01T09:57:45.239+05:30  INFO 16964 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-09-01T09:57:45.302+05:30  INFO 16964 --- [restartedMain] com.project.restapi.ProjectApplication   : Starting ProjectApplication using Java 17.0.7 with PID 16964 (C:\Users\santh\Documents\workspace-spring-tool-suite-4-4.19.1.RELEASE\project\target\classes started by santh in C:\Users\santh\Documents\workspace-spring-tool-suite-4-4.19.1.RELEASE\project)
+2023-09-01T09:57:45.303+05:30  INFO 16964 --- [restartedMain] com.project.restapi.ProjectApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-09-01T09:57:45.499+05:30  INFO 16964 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-01T09:57:45.511+05:30  INFO 16964 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 3 JPA repository interfaces.
+2023-09-01T09:57:45.630+05:30  INFO 16964 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8181 (http)
+2023-09-01T09:57:45.630+05:30  INFO 16964 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-01T09:57:45.630+05:30  INFO 16964 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-09-01T09:57:45.651+05:30  INFO 16964 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-01T09:57:45.651+05:30  INFO 16964 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 346 ms
+2023-09-01T09:57:45.686+05:30  INFO 16964 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-01T09:57:45.693+05:30  INFO 16964 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-01T09:57:45.694+05:30  INFO 16964 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-01T09:57:45.695+05:30  INFO 16964 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-09-01T09:57:45.711+05:30  INFO 16964 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5fe6adbc
+2023-09-01T09:57:45.711+05:30  INFO 16964 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-09-01T09:57:45.712+05:30  WARN 16964 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-09-01T09:57:45.727+05:30  INFO 16964 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-01T09:57:45.773+05:30  INFO 16964 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-01T09:57:45.800+05:30  INFO 16964 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-01T09:57:45.938+05:30  WARN 16964 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-01T09:57:46.077+05:30  INFO 16964 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-01T09:57:46.089+05:30  INFO 16964 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8181 (http) with context path ''
+2023-09-01T09:57:46.095+05:30  INFO 16964 --- [restartedMain] com.project.restapi.ProjectApplication   : Started ProjectApplication in 0.816 seconds (process running for 52.631)
+2023-09-01T09:57:46.101+05:30  INFO 16964 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-09-01T09:58:39.754+05:30  INFO 16964 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-09-01T09:58:39.770+05:30  INFO 16964 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-09-01T09:58:39.776+05:30  INFO 16964 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-01T09:58:39.776+05:30  INFO 16964 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2023-09-01T09:58:39.783+05:30  INFO 16964 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2023-09-01T09:58:39.853+05:30  INFO 16964 --- [restartedMain] com.project.restapi.ProjectApplication   : Starting ProjectApplication using Java 17.0.7 with PID 16964 (C:\Users\santh\Documents\workspace-spring-tool-suite-4-4.19.1.RELEASE\project\target\classes started by santh in C:\Users\santh\Documents\workspace-spring-tool-suite-4-4.19.1.RELEASE\project)
+2023-09-01T09:58:39.853+05:30  INFO 16964 --- [restartedMain] com.project.restapi.ProjectApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-09-01T09:58:40.056+05:30  INFO 16964 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-01T09:58:40.068+05:30  INFO 16964 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 3 JPA repository interfaces.
+2023-09-01T09:58:40.127+05:30  INFO 16964 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8181 (http)
+2023-09-01T09:58:40.127+05:30  INFO 16964 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-01T09:58:40.127+05:30  INFO 16964 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-09-01T09:58:40.141+05:30  INFO 16964 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-01T09:58:40.141+05:30  INFO 16964 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 285 ms
+2023-09-01T09:58:40.168+05:30  INFO 16964 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-01T09:58:40.177+05:30  INFO 16964 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-01T09:58:40.177+05:30  INFO 16964 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-01T09:58:40.178+05:30  INFO 16964 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2023-09-01T09:58:40.193+05:30  INFO 16964 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@595ff01f
+2023-09-01T09:58:40.193+05:30  INFO 16964 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2023-09-01T09:58:40.194+05:30  WARN 16964 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-09-01T09:58:40.204+05:30  INFO 16964 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-01T09:58:40.234+05:30  INFO 16964 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-01T09:58:40.261+05:30  INFO 16964 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-01T09:58:40.367+05:30  WARN 16964 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-01T09:58:40.494+05:30  INFO 16964 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-01T09:58:40.506+05:30  INFO 16964 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8181 (http) with context path ''
+2023-09-01T09:58:40.511+05:30  INFO 16964 --- [restartedMain] com.project.restapi.ProjectApplication   : Started ProjectApplication in 0.687 seconds (process running for 107.047)
+2023-09-01T09:58:40.513+05:30  INFO 16964 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-09-01T09:58:48.542+05:30  INFO 16964 --- [http-nio-8181-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-01T09:58:48.544+05:30  INFO 16964 --- [http-nio-8181-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-01T09:58:48.547+05:30  INFO 16964 --- [http-nio-8181-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-09-01T09:58:48.576+05:30  INFO 16964 --- [http-nio-8181-exec-1] c.p.restapi.controller.usercontroller    : This is Bucks Buny
+2023-09-01T09:58:48.576+05:30 DEBUG 16964 --- [http-nio-8181-exec-1] c.p.restapi.controller.usercontroller    : debug
+2023-09-01T09:58:48.576+05:30  WARN 16964 --- [http-nio-8181-exec-1] c.p.restapi.controller.usercontroller    : warn
+2023-09-01T09:58:48.576+05:30 ERROR 16964 --- [http-nio-8181-exec-1] c.p.restapi.controller.usercontroller    : error
